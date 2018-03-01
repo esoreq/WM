@@ -1,0 +1,13 @@
+\begin{table}
+\centering
+\begin{tabular}[0.2em]{@{}lllllllll@{}}\toprule
+Metric & Factor & ROI set & mean F1 & std F1 & MannWhitneyR & p value & CI\\\toprule[0.2em]
+BA & Stage & DG & 62.4380 & 2.5280 & 1.2244 & 0.0010 & 61.2999 & 63.5761 \\\midrule
+BA & Stage & SG & 66.5490 & 3.8565 & 1.2243 & 0.0010 & 64.8128 & 68.2852 \\\midrule
+BA & Stage & WB & 72.6093 & 2.2833 & 1.2244 & 0.0010 & 71.5814 & 73.6373 \\\midrule
+PPI & Stage & DG & 66.1574 & 2.5746 & 1.2244 & 0.0010 & 64.9984 & 67.3165 \\\midrule
+PPI & Stage & SG & 65.8313 & 2.5511 & 1.2244 & 0.0010 & 64.6828 & 66.9798 \\\midrule
+PPI & Stage & WB & 75.7230 & 1.8086 & 1.2244 & 0.0010 & 74.9087 & 76.5372 \\\bottomrule[0.2em]
+\end{tabular}
+\caption{classification effect size compared to the permuted null effect over metrics (activation and connectivity) and set. Empirical p is calculated as the number of null models that are better than the mean F1score of the true model.\label{tabel:ClassificationEffectdomainbyload}}
+\end{table}

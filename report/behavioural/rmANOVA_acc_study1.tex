@@ -1,0 +1,15 @@
+\begin{table}
+\centering
+\begin{tabular}[0.2em]{@{}lllllll@{}}\toprule
+Terms & SumSq & DF & MeanSq & F & pValueGG\\\toprule[0.2em]
+(Intercept) & 5112.4270 & 1 & 5112.4270 & 3959.7509 & 0.0001 \\\midrule
+Error & 23.2398 & 18 & 1.2911 & 1.0000 & 0.5000 \\\midrule
+(Intercept):Load & 11.3802 & 2 & 5.6901 & 11.8498 & 0.0010 \\\midrule
+Error(Load) & 17.2866 & 36 & 0.4802 & 1.0000 & 0.5000 \\\midrule
+(Intercept):Domain & 3.8714 & 2 & 1.9357 & 2.6670 & 0.0926 \\\midrule
+Error(Domain) & 26.1287 & 36 & 0.7258 & 1.0000 & 0.5000 \\\midrule
+(Intercept):Load:Domain & 7.0059 & 4 & 1.7515 & 1.9809 & 0.1346 \\\midrule
+Error(Load:Domain) & 63.6609 & 72 & 0.8842 & 1.0000 & 0.5000 \\\bottomrule[0.2em]
+\end{tabular}
+\caption{Accuracy was examined using a 3 x 3 (domain x load) repeated-measures ANOVAThere was a significant main effect of load ($F_{2,36}=11.85, p_{GG}<0.0001$)There was no significant main effect of domain and no significant interaction between load and domain($F_{2,36}=2.667, p=0.083;F_{4,72}=1.7515, p=0.106$)\label{tabel:behStudy1Acc}}
+\end{table}

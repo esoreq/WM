@@ -1,0 +1,19 @@
+\begin{table}
+\centering
+\begin{tabular}[0.2em]{@{}lllllllll@{}}\toprule
+Metric & Factor & ROI set & mean F1 & std F1 & MannWhitneyR & p value & CI\\\toprule[0.2em]
+BA & Domain & DG & 70.5991 & 5.9089 & 1.2239 & 0.0010 & 67.9390 & 73.2593 \\\midrule
+BA & Domain & SG & 75.1937 & 5.5335 & 1.2244 & 0.0010 & 72.7025 & 77.6848 \\\midrule
+BA & Domain & WB & 91.7500 & 2.5812 & 1.2244 & 0.0010 & 90.5880 & 92.9120 \\\midrule
+PPI & Domain & DG & 85.7778 & 4.5418 & 1.2244 & 0.0010 & 83.7331 & 87.8224 \\\midrule
+PPI & Domain & SG & 83.6021 & 5.0934 & 1.2244 & 0.0010 & 81.3090 & 85.8951 \\\midrule
+PPI & Domain & WB & 87.9257 & 3.8227 & 1.2244 & 0.0010 & 86.2047 & 89.6467 \\\midrule
+BA & Stage & DG & 91.3703 & 2.0057 & 1.2245 & 0.0010 & 90.4674 & 92.2733 \\\midrule
+BA & Stage & SG & 75.8919 & 2.8228 & 1.2242 & 0.0010 & 74.6210 & 77.1627 \\\midrule
+BA & Stage & WB & 90.8931 & 2.3542 & 1.2245 & 0.0010 & 89.8333 & 91.9529 \\\midrule
+PPI & Stage & DG & 87.5856 & 3.1877 & 1.2244 & 0.0010 & 86.1505 & 89.0207 \\\midrule
+PPI & Stage & SG & 76.1367 & 3.5937 & 1.2244 & 0.0010 & 74.5188 & 77.7545 \\\midrule
+PPI & Stage & WB & 81.1832 & 2.3183 & 1.2244 & 0.0010 & 80.1395 & 82.2269 \\\bottomrule[0.2em]
+\end{tabular}
+\caption{classification effect size compared to the permuted null effect over metrics (activation and connectivity) Factor and set. Empirical p is calculated as the number of null models that are better than the mean/min F1 of the true model ($p_mean,p_min$).\label{tabel:ClassificationEffect}}
+\end{table}

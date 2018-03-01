@@ -1,0 +1,13 @@
+\begin{table}
+\centering
+\begin{tabular}[0.2em]{@{}lllllllll@{}}\toprule
+Metric & Factor & ROI set & mean F1 & std F1 & MannWhitneyR & p value & CI\\\toprule[0.2em]
+BA & Activity & DG & 69.6238 & 3.5442 & 1.2244 & 0.0010 & 68.0282 & 71.2194 \\\midrule
+BA & Activity & SG & 74.2017 & 3.7237 & 1.2244 & 0.0010 & 72.5253 & 75.8781 \\\midrule
+BA & Activity & WB & 80.8845 & 3.2431 & 1.2244 & 0.0010 & 79.4245 & 82.3446 \\\midrule
+PPI & Activity & DG & 76.3889 & 2.9659 & 1.2244 & 0.0010 & 75.0536 & 77.7241 \\\midrule
+PPI & Activity & SG & 74.4846 & 2.8460 & 1.2244 & 0.0010 & 73.2034 & 75.7659 \\\midrule
+PPI & Activity & WB & 82.4605 & 2.4110 & 1.2244 & 0.0010 & 81.3751 & 83.5459 \\\bottomrule[0.2em]
+\end{tabular}
+\caption{classification effect size compared to the permuted null effect over metrics (activation and connectivity) and set. Empirical p is calculated as the number of null models that are better than the mean/min F1 of the true model ($p_mean,p_min$).\label{tabel:ClassificationEffect}}
+\end{table}
